@@ -16,7 +16,7 @@ class School
    end
    
    def grade(student)
-      roster.fetch(name)
+      roster[grade]
    end 
    
    def sort 
